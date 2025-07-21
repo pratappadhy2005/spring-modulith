@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class SlotAllocationService {
 
+    // This service handles the allocation and deallocation of parking slots
     private final SlotRepository slotRepository;
 
     public SlotAllocationService(SlotRepository slotRepository) {
